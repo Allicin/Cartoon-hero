@@ -1,12 +1,22 @@
 body {
 	margin: 0;
 }
+/*
+Font import thru @font-face
+I had problem with it not using the font
+properly byt '../' on the beginning of
+the link
+*/
 @font-face {
-	font-family: bigheroFont;
-	src: url('css/bighero-v4.ttf');
+	font-family: 'bigheroFont';
+	src: url(../css/bighero-v4.ttf);
 }
 h1 {
-	font-family: bigheroFonts;
+	font-family: bigheroFont;
+}
+h2 {
+	font-family: bigheroFont;
+
 }
 header {
 	background-color: #a72321;
