@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+}
+@font-face {
+	font-family: bigheroFont;
+	src: url('css/bighero-v4.ttf');
+}
+h1 {
+	font-family: bigheroFonts;
+}
+header {
+	background-color: #a72321;
+	margin: 0, auto;
+	padding: 0, auto;
+	font-size: 30px;
+}
+
+header img {
+	width: 300px;
+	border-radius: 10px 10px 180px 180px;
+	border: 30px double white;
+}
