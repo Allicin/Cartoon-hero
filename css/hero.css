@@ -44,7 +44,7 @@ header {
 }
 
 header h1 {
-	Color: white;
+	Color: #f6efea;
 	margin: 30px;
 	margin-top; ;
 	font-size: 50px;
@@ -54,7 +54,7 @@ header h1 {
 header img {
 	width: 300px;
 	border-radius: 10px 10px 180px 180px;
-	border: 30px double white;
+	border: 30px double #f6efea;
 	margin: 30px;
 }
 
@@ -118,11 +118,11 @@ p a .caption :hover {
 footer {
 	background-color: #a72321;
 	text-align: center;
-	color: white;
+	color: #f6efea;
 	padding: 20px;
 }
 footer a {
-	color: white;
+	color: #f6efea;
 }
 footer a:hover {
 	color: #aaaaaa;
