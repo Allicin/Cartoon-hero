@@ -1,6 +1,17 @@
 body {
 	margin: 0;
+	font-family: Barlow, Helvetica, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 20px;
+	background-image: url(../img/baymax-peek.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-color: #f6efea;
+	margin-bottom: -90px;
+	min-width: 490px;
 }
+
 /*
 Font import thru @font-face
 I had problem with it not using the font
@@ -12,21 +23,108 @@ the link
 	src: url(../css/bighero-v4.ttf);
 }
 h1 {
-	font-family: bigheroFont;
+	font-family: bigheroFont, Helvetica, sans-serif;
 }
 h2 {
 	font-family: bigheroFont;
-
+	font-weight: auto;
+    font-size: 30px;
+    color: #a72321;  
+}
+h2.class2 {
+	margin-top: 40px;
+    margin-bottom: 10px;
 }
 header {
 	background-color: #a72321;
-	margin: 0, auto;
-	padding: 0, auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	font-size: 30px;
+}
+
+header h1 {
+	Color: white;
+	margin: 30px;
+	margin-top; ;
+	font-size: 50px;
+
 }
 
 header img {
 	width: 300px;
 	border-radius: 10px 10px 180px 180px;
 	border: 30px double white;
+	margin: 30px;
+}
+
+/* Main Elements Styles */
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 20px;
+}
+main p {
+	text-align: justify;
+}
+main hr {
+	height: 5px;
+	background-color: #a72321;
+	border-style: none;
+}
+
+li {
+	font-weight: 600;
+	font-style: bold;
+}
+main img {
+	/*display: block;*/
+	margin: auto;
+	padding: 3px;
+	border: 10px double #aaaaaa;
+	width: 100%;
+	/* I am having trouble with centering the image
+	the image, borders included, is supposed to fit the main max-width of 800px (100%)
+	but the borders and padding seems to defy it.
+	I was thinking of subtracting the values of the padding and borders from the 100%
+	but I think there is a simpler way.
+	*/
+	box-sizing: border-box;
+}
+p.caption {
+	color: #aaaaaa;
+	margin: 0;
+}
+main iframe {
+	max-width: 100%;
+}
+
+
+a {
+	color: #a72321;
+}
+a:hover {
+	color: #aaaaaa;
+}
+/* Footer Element Styles */
+p a .caption {
+	color: #aaaaaa;
+}
+p a .caption :hover {
+	color: #a72321;
+}
+
+footer {
+	background-color: #a72321;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+footer a {
+	color: white;
+}
+footer a:hover {
+	color: #aaaaaa;
+	background-color: transparent;
 }
