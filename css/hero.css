@@ -108,10 +108,10 @@ a:hover {
 	color: #aaaaaa;
 }
 /* Footer Element Styles */
-p a .caption {
+p.caption a {
 	color: #aaaaaa;
 }
-p a .caption :hover {
+p.caption a:hover {
 	color: #a72321;
 }
 
